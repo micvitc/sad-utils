@@ -164,3 +164,7 @@ cython_debug/
 sad-utils-env/
 
 notebooks/
+
+*.ipynb 
+
+main.py
