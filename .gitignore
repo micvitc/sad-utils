@@ -164,6 +164,9 @@ cython_debug/
 sad-utils-env/
 notebooks/
 
-*.ipynb 
+*.ipynb
 
 main.py
+test.py
+
+.ruff_cache/

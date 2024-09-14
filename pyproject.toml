@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mic-toolkit"
+version = "0.1.0"
+description = "Internal toolkit for Microsoft Innovations Club VITC."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+distilabel = {extras = ["openai"], version = "^1.3.2"}
+
+
+[tool.poetry.group.dev.dependencies]
+mkdocstrings = {extras = ["python"], version = "^0.26.1"}
+mkdocs-material = "^9.5.34"
+mkdocs = "^1.6.1"
+pre-commit = "^3.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

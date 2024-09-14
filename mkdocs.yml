@@ -1,0 +1,24 @@
+site_name: mic-toolkit
+site_url: https://micvitc.github.io/mic-toolkit/
+nav:
+    - Home: index.md
+    - Synthetic: synthetic.md
+
+theme:
+    name: material
+    features:
+        - content.code.copy
+        - content.code.select
+plugins:
+    - mkdocstrings
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+
