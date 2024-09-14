@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "mic-toolkit"
-version = "0.1.0"
+version = "0.2.0"
 description = "Internal toolkit for Microsoft Innovations Club VITC."
-authors = ["Your Name <you@example.com>"]
+authors = ["Ameen Shaikh <mohammedameen9011@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 

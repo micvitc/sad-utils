@@ -2,6 +2,16 @@
 
 Utilities for internal MIC projects
 
+## Installation
+
+Make sure you have a python version>=3.12
+
+``` bash
+
+pip install mic-toolkit
+
+```
+
 ## Current Utilities
 
 ### Simple Data Generation Pipeline
