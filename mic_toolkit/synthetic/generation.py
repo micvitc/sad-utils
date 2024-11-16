@@ -46,7 +46,7 @@ class Generator:
             return self.client.chat(
                 model=self.model,
                 messages=[
-                    {"system": system_prompt},
+                    {"role": "assistant", "content": system_prompt},
                     {"role": "user", "content": text},
                 ],
                 options=options,

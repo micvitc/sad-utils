@@ -3,14 +3,25 @@ site_url: https://micvitc.github.io/mic-toolkit/
 nav:
     - Home: index.md
     - Synthetic: synthetic.md
+repo_url: https://github.com/micvitc/mic-toolkit
+repo_name: micvitc/mic-toolkit
 
 theme:
     name: material
     features:
         - content.code.copy
         - content.code.select
+    palette:
+        primary: black
+        accent: indigo
+    version:
+        provider: pip
+        package: mic-toolkit
 plugins:
     - mkdocstrings
+    - social:
+        enabled: !ENV [CI, false]
+        cards: true
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -20,5 +31,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+
+
 
 
